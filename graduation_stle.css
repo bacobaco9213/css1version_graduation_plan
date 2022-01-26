@@ -1,0 +1,60 @@
+   a {
+     color:black;
+     text-decoration: none;
+   }
+   .saw{
+     color:gray;
+   }
+   #active{
+     color:red;
+   }
+   table {
+     text-align:center;
+     border: 1px solid black;
+     border-collapse: collapse;
+   }
+   th, td {
+     border: 1px solid black;
+   }
+   .patience{
+     color:black;
+     font-size: 40px;
+   }
+   div.name{
+     text-align:center;
+     border-bottom: 2px solid black;
+     padding: 10px;
+   }
+   .all{
+     display:grid;
+     grid-template-columns: 1fr 1fr 1fr;
+   }
+   .upper{
+      text-align: center;
+      border-right: 2px solid black;
+      width: 510px;
+      font-size: 20px;
+      padding: 20px;
+   }
+   .middle{
+     margin:0;
+     padding-top: 10px;
+     padding-left: 30px;
+   }
+   .bottom{
+     padding-top: 10px;
+     padding-left: 30px;
+     padding-right: 30px;
+   }
+   @media (max-width: 600px) {
+       .all {
+         display:block;
+       }
+       .upper{
+         border-right: none;
+         border-bottom: 2px solid black;
+       }
+       .middle{
+         border-bottom: 2px solid black;
+       }
+   }
